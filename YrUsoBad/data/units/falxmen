@@ -1,0 +1,38 @@
+{
+  "faction": "barbarian",
+  "type": "falx",
+  "tier": 5,
+  "unit_name": "Falxmen",
+  "stats": {
+    "charge_impact": 233,
+    "impact_damage": 140,
+    "melee_attack": 142,
+    "melee_weapon_damage": 58,
+    "melee_weapon_penetration_damage": 77,
+    "morale_flank_damage": 181,
+    "charge_deflect": 33,
+    "missile_block_chance": 22,
+    "body_armour": 104,
+    "health": 252,
+    "morale": 79,
+    "acceleration": 2.6,
+    "decelaration": 4.5,
+    "movement_speed": 4.4,
+    "turn_speed": 392,
+    "view_range": 181
+  },
+  "consumables": {
+    "spar": {
+      "melee_attack": 5,
+      "shield_armour": 20
+    },
+    "feast": {
+      "melee_weapon_damage": 7,
+      "melee_weapon_penetration damage": 8
+    },
+    "swear oath": {
+      "impact_damage": 9,
+      "movement_speed": 7
+    }
+  }
+}
