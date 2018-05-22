@@ -16,7 +16,7 @@
     "health": 252,
     "morale": 79,
     "acceleration": 2.6,
-    "decelaration": 4.5,
+    "deceleration": 4.5,
     "movement_speed": 4.4,
     "turn_speed": 392,
     "view_range": 181
