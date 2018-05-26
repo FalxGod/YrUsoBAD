@@ -6,7 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -44,17 +43,15 @@ public class GsonTest {
 		
 		JsonObject consumables = new JsonObject();
 		JsonObject spar = new JsonObject();
-		spar.add("melee attack", new JsonPrimitive(5));
-		spar.add("shield armour", new JsonPrimitive(20));
-		JsonObject feast = new JsonObject();
-		feast.add("melee weapon damage", new JsonPrimitive(7));
-		feast.add("melee weapon penetration damage", new JsonPrimitive(8));
-		JsonObject oath = new JsonObject();
-		oath.add("impact damage", new JsonPrimitive(9));
-		oath.add("movement speed", new JsonPrimitive(7));
-		consumables.add("spar V", spar);
-		consumables.add("feast V", feast);
-		consumables.add("swear oath", oath);
+		JsonObject stat = new JsonObject();
+		stat.addProperty("melee_attack", 5);
+		stat.addProperty("isFlat", true);
+		spar.add("stat_1", stat);
+			
+		stat = new JsonObject();
+		stat.addProperty("shield_armour", 20);
+		stat.addProperty("isFlat", true);
+		spar.add("stat_2", stat);
 		
 		root.add("consumables", consumables);
 		
