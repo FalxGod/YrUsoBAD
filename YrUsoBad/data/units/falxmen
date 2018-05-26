@@ -7,7 +7,7 @@
     "charge_impact": 233,
     "impact_damage": 140,
     "melee_attack": 142,
-    "melee_weapon_damage": 58,
+    "melee_weapon damage": 58,
     "melee_weapon_penetration_damage": 77,
     "morale_flank_damage": 181,
     "charge_deflect": 33,
@@ -21,18 +21,53 @@
     "turn_speed": 392,
     "view_range": 181
   },
+  "gear": {
+    "Warrior Montefortino": {
+      "g_type": "helmet",
+      "stat_1": {
+        "body_armour": 4,
+        "isFlat": true
+      },
+      "stat_2": {
+        "morale": 6,
+        "isFlat": true
+      },
+      "stat_3": {
+        "view_range": 14,
+        "isFlat": true
+      }
+    }
+  },
   "consumables": {
-    "spar": {
-      "melee_attack": 5,
-      "shield_armour": 20
+    "spar V": {
+      "stat_1": {
+        "melee_attack": 5,
+        "isFlat": true
+      },
+      "stat_2": {
+        "shield_armour": 20,
+        "isFlat": true
+      }
     },
-    "feast": {
-      "melee_weapon_damage": 7,
-      "melee_weapon_penetration damage": 8
+    "feast V": {
+      "stat_1": {
+        "melee_weapon_damage": 7,
+        "isFlat": true
+      },
+      "stat_2": {
+        "melee_weapon_penetration_damage": 8,
+        "isFlat": true
+      }
     },
-    "swear oath": {
-      "impact_damage": 9,
-      "movement_speed": 7
+    "swear oath V": {
+     "stat_1": {
+        "impact_damage": 9,
+        "isFlat": true
+      },
+      "stat_2": {
+        "movement_speed": 7,
+        "isFlat": true
+      }
     }
   }
 }
